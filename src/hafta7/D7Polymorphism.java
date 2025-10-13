@@ -8,7 +8,8 @@ public class D7Polymorphism {
 	}
 	public static void topla(int a, int b)        {  System.out.println(a+b);    }
 	public static void topla(int a, int b, int c) {  System.out.println(a+b+c);}
-	public static void topla(double a, double b)  {  System.out.println(a+b);    }
+	public static void topla(double a, double b)  {  
+		System.out.println("bu çalışttı");System.out.println(a+b);    }
 	public static void topla(double a, int b)     {  System.out.println(a+b);    }
 /*Çağrı yapılan satır:
 
