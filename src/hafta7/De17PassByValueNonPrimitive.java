@@ -26,7 +26,7 @@ Referans tipler: Nesnenin içeriği değiştirilebilir,
 		System.out.println(dizi[1]);//0
 		System.out.println(dizi[2]);//6
 	}
-	private static void degistir(int[] arr) {
+	private static void degistir(int[] arr) {//non primitive
 		arr[0]=1453;
 		arr[1]=0;
 			}

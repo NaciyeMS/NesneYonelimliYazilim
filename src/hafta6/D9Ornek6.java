@@ -57,3 +57,64 @@ public class D9Ornek6 {
 	}
 
 }
+/*İKİNCİ ÇÖZÜM*/
+/* 
+ * Kişiler sorulara 1 ile 5 arasında cevaplar vermişlerdir. 
+ * Ankette her soru için 
+ * ÇOK OLUMLU görüşünü bildirmek isteyenler 1,
+ *  OLUMLU görüşünü bildirmek isteyenler 2,
+ *   TARAFSIZ görüşte olanlar 3,
+ *    OLUMSUZ diyenler 4 
+ *    ÇOK OLUMSUZ diyenler 5 kodlamışlardır.
+ *     Her soru için cevapların yüzdelerini tablolayan bir program yazınız
+*/
+/*
+String [] soru= {        "Yeni insanlarla tanışmayı severmisiniz?",     
+		"İnsanlara yardım etmeyi sever misiniz?",        
+		"Kolayca hayal kırıklığına uğrar mısınız?",
+		"uzun vadeli hedefleriniz var mı?",   
+		"Her zaman meşgul musunuz?"};
+int n;
+System.out.println("kaç kişi oy kullanacak");
+Scanner klavye= new Scanner(System.in);
+n=klavye.nextInt();
+int [][]cvp=new int[5][5];
+//başlangıçtaki değeleri atandı
+for (int i = 0; i < 5; i++) {
+	for (int j = 0; j < 0; j++) {
+		cvp[i][j]=0;
+	}
+	
+}
+for (int i = 0; i < n; i++) {
+	for (int j = 0; j < soru.length; j++) {
+		System.out.println(soru[j]);
+		System.out.println("1-ÇOK OLUMLU\n2-OLUMLU\n3-TARAFSIZ\n4-OLUMSUZ\n5-ÇOK OLUMSUZ");
+		int x=klavye.nextInt();
+		cvp[j][x-1]++;
+	}
+}
+*/
+/*	cvp	1		2		3		4		5		
+ * 1.s	1		0		0		0		0
+ * 2.s	0		0		0		0		0
+ * 3.s	0		0		0		0		0		
+ * 4.s	0		0		0		0		0
+ * 5.s	0		0		0		0		0
+ * */
+/*
+System.out.println("SORU                                    1-ÇOK OLUMLU 2-OLUMLU 3-TARAFSIZ 4-OLUMSUZ 5-ÇOK OLUMSUZ");
+for (int i = 0; i < 5; i++) {
+	
+	System.out.print(String.format("%40s", soru[i]));
+	for (int j = 0; j < 5; j++) {
+		System.out.print(String.format("%12s", cvp[i][j]));
+		
+		
+	}
+	System.out.println();
+}
+
+
+}
+*/

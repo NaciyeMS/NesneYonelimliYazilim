@@ -12,7 +12,7 @@ Yani, metot içinde yapılan değişiklikler orijinal değişkeni etkilemez,
 */
 	public static void main(String[] args) {
 		int d=3;
-		degistir(d);
+		degistir(d);//primitive ilkel
 		System.out.println(d);
 	}
 	private static void degistir(int d) {

@@ -21,7 +21,7 @@ public class De18PassByValueYeniReferansOlusturma {
 	        d[0] = 20; // Dizinin içeriği değişir (aynı nesneye erişiyoruz)
 	    }
 	    public static void referansiDegistir(int[] d) {
-	        d = new int[1]; // Yeni bir diziye referans atanıyor
+	        d = new int[1]; // Yeni bir diziye referans adresi atanıyor
 	        d[0]=30; // Bu değişiklik sadece bu metodun içindedir
 	    }
 }
