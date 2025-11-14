@@ -4,7 +4,7 @@ public class ErisimBelirleyiciSinif {
 public String publicDegisken="kütüphane gibi her yerden ulaşım var";//her yerden erişim
 private String privateDegisken="kasa gibi "; //"Sadece tanımlandığı yerden erişim var"
 protected String protectedDegisken="aile albümü"; //aileye dahil olan childlar görecek
-String defaultDegisken="apartman gibi";
+         String defaultDegisken="apartman gibi";
 
 /*AYNI SINIFIN İÇERİSİNDE YUKARIDAKİ 
  * BÜTÜN ERİŞİM BELİRLEYİCİ DEĞİŞKENLERE ULAŞABİLİRİM. 
