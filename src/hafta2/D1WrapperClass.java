@@ -12,7 +12,7 @@ En önemlisi de girilen veri üzerinde metod kullanımı açar
 		Integer b=4; //wrapper class
 		b.compareTo(8);//wrapper classların kendine has fonksiyonları bulunur 
 		//wrapper'lar büyük harfle başlar çünkü class'tırlar
-		// primitive----->wrapper class
+		// primitive----->wrapper class(non primitive)
 		// char---------->Character         - 
 		// boolean------->Boolean
 		// byte---------->Byte
