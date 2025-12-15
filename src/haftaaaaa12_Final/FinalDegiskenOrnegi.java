@@ -6,7 +6,7 @@ public class FinalDegiskenOrnegi {
 		//DEĞİŞKENİ FİNAL TANIMLAMAK
 		//içindeki değeri asla değiştiremeyeceksin demek
 		final int MAX_AGE=100; //upper snake case
-		/*Verileirn
+		/*Verilerin
 		 * saklanması
 		 * sonradan kullanılması
 		 * değiştirilebilmesi (YAPAMIYORUZ)

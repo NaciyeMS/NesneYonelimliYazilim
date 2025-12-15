@@ -2,7 +2,7 @@ package haftaaaaa12_Overriding;
 
 public class Payment {
 // ödeme işlemleri parent class
-	public void processPayment(double amount) {
+	public  void processPayment(double amount) {
 		System.out.println("Ödeme işleniyor"+amount+"TL");
 	}
 }
